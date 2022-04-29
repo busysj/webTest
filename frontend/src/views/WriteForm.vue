@@ -18,7 +18,7 @@ export default {
   methods: {
     addmemo() {
       this.$http
-        .post("/api/memo", {
+        .post("/api/memo/writeform", {
           data: {
             title: this.title,
             memo: this.memo,
